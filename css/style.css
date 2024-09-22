@@ -676,7 +676,7 @@ footer .grid {
 
 .input-field label {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 1.5rem;
   transform: translateY(-40%);
   -webkit-transform: translateY(-40%);
@@ -755,7 +755,10 @@ textarea {
 }
 /***** End Scrollbar Section *****/
 
+
+
 /*? Scroll animation and scroll snap  */
+
 
 /***** Media queries Section *****/
 
