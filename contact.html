@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      footer {
+        padding-top: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--?------------- Start Navbar Section ---------------->
+    <header class="section-navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img
+              src="./images/logo.png"
+              alt="Brand Image"
+              width="80%"
+              height="auto"
+            />
+          </a>
+        </div>
+
+        <nav class="navbar">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--? ========== Start Actual Contact Section ========== -->
+    <div class="section-contact">
+      <div class="container">
+        <h2 class="section-comman--heading">Contact Us</h2>
+        <p class="section-comman--subheading">
+          Get in touch with us. We are always here to help you.
+        </p>
+      </div>
+
+      <div class="container grid grid-two--cols">
+        <div class="contact-content">
+          <form action="#">
+            <div class="grid grid-two--cols mb-3">
+              <div class="input-field">
+                <input
+                  type="text"
+                  name="username"
+                  id="name"
+                  required
+                  autocomplete="off"
+                />
+                <label for="username">Enter Your Full Name</label>
+              </div>
+
+              <div class="input-field">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  autocomplete="off"
+                />
+                <label for="email">Enter Your Email Address</label>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                placeholder="Title of Your Message"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="We Are Always Here To Help You"
+              ></textarea>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115509.94629901816!2d75.86475266457722!3d25.213815615707098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396f9b30c41bb44d%3A0x5f5c103200045588!2sKota%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1726824520334!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Actual Contact Section ========== -->
+
+    <!--? ========== Start Footer Section ========== -->
+    <footer>
+      <div class="container grid grid-four--cols">
+        <div class="footer-1--div">
+          <div class="logo-brand">
+            <a href="index.html" class="footer-subheading">Thapa EduHub</a>
+          </div>
+          <p>Let's revolutionize the way you study with Thapa EduHub</p>
+
+          <div class="social-footer--icons">
+            <a href="https://discord.gg/fDuFEXfyyH" target="_blank">
+              <i class="fa-brands fa-discord"></i>
+            </a>
+            <a
+              href="https://wwww.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
+              target="_blank"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/thapatechnical/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-2--div">
+          <p class="footer-subheading">Courses</p>
+          <ul>
+            <li><a href="index.html">CSS3</a></li>
+            <li><a href="index.html">CSS3</a></li>
+            <li><a href="index.html">CSS3</a></li>
+            <li><a href="index.html">CSS3</a></li>
+            <li><a href="index.html">CSS3</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-3--div">
+          <p class="footer-subheading">Links</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-4--div">
+          <p class="footer-subheading">Blogs</p>
+          <ul>
+            <li><a href="index.html">HTML</a></li>
+            <li><a href="index.html">HTML</a></li>
+            <li><a href="index.html">HTML</a></li>
+            <li><a href="index.html">HTML</a></li>
+            <li><a href="index.html">HTML</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
